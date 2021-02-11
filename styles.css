@@ -1,0 +1,52 @@
+body {
+  background: url(https://media-cdn.tripadvisor.com/media/photo-s/11/cf/b9/a3/dum-gosht-biryani.jpg) no-repeat fixed;
+  background-size: cover;
+  font-family: 'shadows into light', fantasy;
+}
+img{
+  background-color: inherit;
+  opacity:0.5;
+}
+
+p {
+  animation-duration: 5s;
+  animation-name: slidein;
+  text-align: center;
+  font-size: 45px;
+  color: #ffb26b;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  100% {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+h1 {
+  color: #ff884b;
+  font-size: 80px;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px white;
+  animation-duration: 5s;
+  animation-name: slidein;
+  animation-iteration-count: infinite;
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  100% {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
